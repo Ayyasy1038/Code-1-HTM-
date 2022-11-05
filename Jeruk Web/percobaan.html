@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malas ngasih nama</title>
+    
+</head>
+<body>
+    <button type="button" onclick="FC()">Click Me!</button>
+
+    <p id="FCO"></p>
+    <p id="FCO2"></p>
+    
+    <script>
+    function FC() {
+      document.getElementById("FCO").innerHTML = "Hello jono!";
+      document.getElementById("FCO2").innerHTML = "My Name Is Tono";
+    }
+    </script>
+
+
+<script>
+    var x,y;
+x = "Mungkin ";
+y = "Keren kali ";
+let z = x + y;
+
+document.write(z + "Ya!")
+
+</script>
+
+
+<form id="js2" action="Percobaan2.html">
+First name :<input type="text" name="fname"><br>
+last name: <input type="text" name="lname"><br>
+<input type="button" onclick="Aneh()" value="Subbmit">
+</form>
+<script>
+    function Aneh() {
+        document.getElementById('js2').submit;
+    }
+</script>
+<p id="demo"></p>
+<script>
+    const hour = new Date().getHours(); 
+    let greeting;
+    
+    if (hour < 14) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }
+    
+    document.getElementById("demo").innerHTML = greeting;
+    </script>
+</body>
+</html>
